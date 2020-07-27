@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #a{
+                height: 25px;
+                width: 40%;
+                background-image:url('C:/Users/Chillu/Desktop/Project/search/search.jpg');
+                background-position: left;
+                padding-left: 30px;
+                background-size: 20px;
+                background-repeat: no-repeat;
+                border-radius: 25px;
+                border: 1px solid #C3C3C3;
+                padding: 10px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+            }
+           
+            #b,#c
+            {
+                background-color:#F5F5F5;
+                color: #5F6368;
+                border: 1px solid white;
+                cursor: default;
+                height: 40px;
+                min-width: 140px;
+                font-size: 16px;
+                line-height: 100%;
+                font-family: Arial;
+                text-align: center;
+                position: absolute;
+                top: 60%;
+                left: 40%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+            }  
+            #center
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="image.html" style="margin-left: 80%;">Google Images</a>
+        <a href="Advanced.html" style="margin-left: 80%;">Advanced Search</a>
+        <img id="center" src="C:/Users/Chillu/Desktop/Project/search/download.jpg" alt="Google" height="92px" width="272px">
+        <form action="https://google.com/search">
+            <input id="a" type="text" name="q" size=100 >
+            <input id="b" type="submit" value="Google Search" style="left: 44%;">
+            <input id="c" type="submit" name="btnI" value="I'm feeling lucky" style="left: 55%;">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #goog
+            {
+            background-color: #e5e5e5;   
+            }
+            .container
+            {
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 12px;
+            font-family: Arial,sans-serif;
+            }
+            label
+            {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+            }
+            input[type=submit]
+            {
+            background-color: #4d90fe;
+            color: #fff;
+            padding: 0;
+            border: 1px solid #3079ed;
+            border-radius: 2px;
+            cursor: default;
+            font-size: 11px;
+            height: 30px;
+            min-width: 120px;
+            line-height: 100%;
+            font-family: Arial;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+            margin: 10px 0;
+            margin-left: 475px;
+            }
+            input[type=text]
+            {
+            float: right;
+            width: 75%;
+            margin-top: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="goog">
+            <a href="index.html"><img src='C:/Users/Chillu/Desktop/Project/search/pngegg.png' alt="google" height="100" width= "92px";></a>
+        </div>
+        <h3 style="color: #d93024; font-family: sans-serif; padding: 20px; font-size: 22px;border-bottom: 5px solid #e5e5e5;">Advanced Search</h3>
+        <h5 style="font-family: Arial, sans-serif; padding: 20px; font-size: 17px;">Find pages with...</h5>
+        <form action="https://www.google.com/search">
+        <div class="container">
+        <label>all these words:           </label><input type="text" name="q"><br/>
+        <label>this exact word or phrase: </label><input type="text" name="as_epq"><br/> 
+        <label>any of these words:        </label><input type="text" name="as_oq"><br/>
+        <label>none of these words:       </label><input type="text" name="as_eq"><br/>
+        </div>
+        <input style="align-content: center;" type="submit" name="submit" value="Advanced search">
+        </form>
+
+    </body>
+</html>
